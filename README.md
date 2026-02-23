@@ -38,3 +38,18 @@ KPI calculations applied through built-in aggregations
 📈 Business Insight Example
 
 Analysis of submission and completion trends demonstrates increasing operational demand alongside improved turnaround efficiency, suggesting process optimisation despite higher workload volume.
+
+🖼 Dashboard Preview
+Overview
+
+Year-on-Year Submissions
+
+Turnaround Time by DM
+
+Data Model Relationships
+
+Power Query Transformations
+
+📂 File Included
+
+Operational_Performance_Dashboard_Portfolio.pbix
