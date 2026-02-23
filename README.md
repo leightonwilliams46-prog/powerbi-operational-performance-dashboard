@@ -1,2 +1,2 @@
-# powerbi-operational-dashboard
-Operational performance dashboard analysing submissions, completions, turnaround times and global DM activity using Power BI.
+# powerbi-operational-performance-dashboard
+Power BI dashboard analysing year-on-year operational KPI performance and governance reporting metrics.
