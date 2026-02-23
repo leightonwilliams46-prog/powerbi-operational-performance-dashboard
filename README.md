@@ -39,16 +39,17 @@ KPI calculations applied through built-in aggregations
 
 Analysis of submission and completion trends demonstrates increasing operational demand alongside improved turnaround efficiency, suggesting process optimisation despite higher workload volume.
 
-🖼 Dashboard Preview
-Overview
+🖼 Screenshots
 
-Year-on-Year Submissions
+<img width="1850" height="852" alt="GitHub Dashboard OverView" src="https://github.com/user-attachments/assets/e5753579-3d0e-41bd-9989-0a7f7706106c" />
 
-Turnaround Time by DM
+<img width="507" height="335" alt="GitHub Submissions Year On Year" src="https://github.com/user-attachments/assets/11582839-787c-47ae-a090-61740ce7fc19" />
 
-Data Model Relationships
+<img width="498" height="335" alt="GitHub DM Turnaround Time" src="https://github.com/user-attachments/assets/c254b69f-8ada-44ef-8dc4-89a0c9d2b069" />
 
-Power Query Transformations
+<img width="1889" height="802" alt="GitHub Data Model View" src="https://github.com/user-attachments/assets/ab0cbf7e-5c7a-424c-93d7-55cdac301fba" />
+
+<img width="1912" height="1010" alt="GitHub Power Query Transformations" src="https://github.com/user-attachments/assets/d6cb4da1-e812-49fd-901a-c1c29348027a" />
 
 📂 File Included
 
