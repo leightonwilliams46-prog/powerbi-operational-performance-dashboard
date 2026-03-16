@@ -22,3 +22,52 @@ The design focuses on supporting governance discussions and helping stakeholders
 ---
 
 ## 📁 Repository Structure
+
+powerbi-operational-performance-dashboard
+│
+├── README.md
+├── dashboard/
+│   └── operational_performance_dashboard.pbix
+└── screenshots/
+└── (dashboard images)
+
+---
+
+## 🖼️ Screenshots
+
+(Add my screenshots into the `/screenshots` folder, then reference them here.)
+
+Example:
+
+screenshots/dashboard-overview.png
+
+---
+
+## 🎯 Purpose of the Dashboard
+
+The dashboard was created to:
+
+- Improve visibility of operational performance  
+- Standardise KPI reporting  
+- Support senior management reviews  
+- Highlight areas requiring process improvement  
+- Provide a single source of truth for operational discussions  
+
+---
+
+## 🛠️ Tools Used
+
+- Power BI  
+- Power Query  
+- Data modelling (relationships, measures, calculated columns)  
+- DAX (where applicable)
+- Excel (pre‑processing)
+
+---
+
+## 📌 Notes
+
+The data used for this dashboard cannot be shared publicly.  
+The `.pbix` file contains the model structure, visuals and layout.
+
+---
