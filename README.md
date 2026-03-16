@@ -1,6 +1,6 @@
 # Operational Performance Dashboard (Power BI)
 
-This project presents a Power BI dashboard designed to monitor operational performance, workload trends and turnaround efficiency across a global quality and accreditation function.
+I built this Power BI dashboard to help our global Quality & Accreditation function monitor workload trends, KPI performance, and turnaround times across regions and processes. I designed the data model, authored the DAX, and created the visuals and layout end‑to‑end.
 
 The dashboard brings together multi‑year operational data to provide senior managers with a clear view of KPIs, data quality issues and regional performance patterns.
 
