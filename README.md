@@ -36,13 +36,13 @@ powerbi-operational-performance-dashboard
 ## 🖼️ Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](screenshots/GitHub Dashboard Overview.png)
+<img width="1850" height="852" alt="GitHub Dashboard OverView" src="https://github.com/user-attachments/assets/7e709392-d940-4eac-ac43-602535ce9972" />
 
 ### Turnaround Time View
-![Turnaround Time](screenshots/GitHub DW Turnaround Time.png)
+<img width="498" height="335" alt="GitHub DM Turnaround Time" src="https://github.com/user-attachments/assets/0d0d695a-4bb4-4059-a3e0-251a82c9f6f4" />
 
 ### Data Model
-![Data Model](screenshots/GitHub Data Model View.png)
+<img width="1889" height="802" alt="GitHub Data Model View" src="https://github.com/user-attachments/assets/5ae357bf-d4ee-4553-a1ec-c61b84278779" />
 
 ---
 
