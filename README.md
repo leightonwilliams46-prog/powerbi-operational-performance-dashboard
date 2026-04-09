@@ -71,7 +71,7 @@ The development process included:
 
 ### **📊 Dashboard Overview**
 Provides a high‑level view of operational workload and performance across the full review lifecycle.  
-Shows multi‑year submission trends, completions, and KPI summary visuals.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+Shows multi‑year submission trends, completions, and KPI summary visuals.
 
 <img width="1850" height="852" alt="GitHub Dashboard OverView" src="https://github.com/user-attachments/assets/41be03dc-cb20-4656-be1e-f7c69e03c96a" />
 
@@ -79,21 +79,20 @@ Shows multi‑year submission trends, completions, and KPI summary visuals.[1](h
 
 ### **⏱ Turnaround Time View**
 A focused view on weekly and regional turnaround trends, used to identify bottlenecks and efficiency improvements.  
-[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
 
 <img width="498" height="335" alt="GitHub DM Turnaround Time" src="https://github.com/user-attachments/assets/574a97a0-eb2a-4307-a320-f9c4c7cec880" />
 
 ---
 
 ### **🧩 Data Model**
-Displays the underlying relationship structure between tables, enabling flexible cross‑filtering across regions, activities and time periods.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+Displays the underlying relationship structure between tables, enabling flexible cross‑filtering across regions, activities and time periods. 
 
 <img width="1889" height="802" alt="GitHub Data Model View" src="https://github.com/user-attachments/assets/dfd9b795-5e13-41f9-9605-33ea2da5c9a4" />
 
 ---
 
 ### **⚙️ Power Query Transformations**
-Shows the transformation logic, data cleansing steps, and applied preprocessing.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+Shows the transformation logic, data cleansing steps, and applied preprocessing.  
 
 <img width="1912" height="1010" alt="GitHub Power Query Transformations" src="https://github.com/user-attachments/assets/ccb7abf6-90db-4be8-b041-ec38660f0dab" />
 
