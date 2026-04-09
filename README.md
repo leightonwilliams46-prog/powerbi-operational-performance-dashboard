@@ -123,7 +123,7 @@ These insights provide operational managers with timely, data‑driven informati
    - slicers  
    - cross‑filters  
    - year‑on‑year trend visuals  
-5. Use the Overview tab for senior‑level summaries, and drill into regional or metric‑specific pages for detailed analysis[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+5. Use the Overview tab for senior‑level summaries, and drill into regional or metric‑specific pages for detailed analysis
 
 ---
 
