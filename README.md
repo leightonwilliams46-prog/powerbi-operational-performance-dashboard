@@ -108,7 +108,6 @@ Analysis from the dashboard highlights the following patterns:
 - **Pick‑up rates have strengthened**, indicating improved allocation consistency and operational efficiency.  
 - **Cross‑regional comparisons reveal variation in throughput**, helping identify where additional resources or process improvements may be needed.  
 - **Data quality indicators surfaced through Power Query** highlight where upstream corrections or standardisation efforts may provide further efficiency gains.  
-[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
 
 These insights provide operational managers with timely, data‑driven information to support planning, resource deployment, and performance monitoring.
 
@@ -135,7 +134,7 @@ These insights provide operational managers with timely, data‑driven informati
 - **Power Query**  
 - **DAX (measures, calculated columns)**  
 - **Excel (pre‑processing)**  
-- **Data modelling (relationships, schema design)**[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+- **Data modelling (relationships, schema design)**
 
 ---
 
