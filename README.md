@@ -41,7 +41,7 @@ The dashboard is built on multi‑year operational data covering:
 - **Regional and process‑level breakdowns**
 
 Data is sourced from internal operational systems and processed in Excel and Power Query prior to modelling in Power BI.  
-Due to confidentiality, the underlying dataset cannot be included in this repository; however, the `.pbix` file contains the full data model structure, transformations, and measures.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+Due to confidentiality, the underlying dataset cannot be included in this repository; however, the `.pbix` file contains the full data model structure, transformations, and measures.
 
 ---
 
@@ -53,19 +53,17 @@ The development process included:
 - Standardised date formats, category labels, and record structures  
 - Removed duplicates and validated year‑on‑year consistency  
 - Merged multiple source files into a clean, unified table  
-[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
 
 ### **2. Data Modelling**
 - Designed a structured model linking activities, dates, and categories  
 - Created relationships to enable cross‑filtering across processes and regions  
-- Defined KPI measures using DAX, including year‑on‑year % changes, rolling metrics, and turnaround time calculations[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+- Defined KPI measures using DAX, including year‑on‑year % changes, rolling metrics, and turnaround time calculations
 
 ### **3. Dashboard Design**
 - Built multi‑year trend visuals for submissions, pick‑ups, completions  
 - Created turnaround time monitoring pages  
 - Designed an overview page summarising key performance actions  
 - Ensured dashboards were aligned with the reporting needs of senior management  
-[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
 
 ---
 
