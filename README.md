@@ -1,76 +1,148 @@
 # Operational Performance Dashboard (Power BI)
 
-I built this Power BI dashboard to help our global Quality & Accreditation function monitor workload trends, KPI performance, and turnaround times across regions and processes. I designed the data model, authored the DAX, and created the visuals and layout end‑to‑end.
-
-The dashboard brings together multi‑year operational data to provide senior managers with a clear view of KPIs, data quality issues and regional performance patterns.
+This Power BI dashboard provides a consolidated view of operational performance across our global Quality & Accreditation function. The dashboard is designed to support senior leadership by tracking year‑on‑year workload volumes, turnaround times, submission/completion activity, and data quality indicators. It brings together multi‑year operational data into a clear, interactive reporting environment that helps stakeholders identify performance patterns, understand regional pressures, and support operational planning.
 
 ---
 
-## 📊 Dashboard Overview
+## 📊 Executive Summary
 
-Key features include:
+This dashboard was developed to improve visibility of operational performance across key review activities. It integrates submissions, pick‑ups, completions, and turnaround metrics into a unified reporting model, allowing decision‑makers to compare performance over time, evaluate KPI progress, and monitor regional workload distribution.
 
-- Multi‑year performance trends  
-- Workload volumes by region and process  
-- Turnaround time monitoring  
-- KPI performance against targets  
-- Data quality tracking  
-- Cross-filtering between regions, activities and time periods  
-
-The design focuses on supporting governance discussions and helping stakeholders understand operational pressures and bottlenecks.
+Multi‑year patterns highlight sustained improvements in throughput and stable turnaround times across several regions. The dashboard also surfaces data quality considerations through the Power Query transformations and modelling structure. Collectively, these insights support governance discussions, resource planning, and continuous performance improvement.
 
 ---
 
 ## 📁 Repository Structure
 
+```text
 powerbi-operational-performance-dashboard
 │
 ├── README.md
 ├── dashboard/
 │   └── operational_performance_dashboard.pbix
 └── screenshots/
-└── (dashboard images)
+    ├── GitHub Dashboard OverView.png
+    ├── GitHub DM Turnaround Time.png
+    ├── GitHub Data Model View.png
+    ├── GitHub Power Query Transformations.png
+    └── GitHub Submissions Year On Year.png
+```
 
 ---
 
-## 🖼️ Screenshots
+## 📄 **Data Context**
 
-### Dashboard Overview
-<img width="1850" height="852" alt="GitHub Dashboard OverView" src="https://github.com/user-attachments/assets/7e709392-d940-4eac-ac43-602535ce9972" />
+The dashboard is built on multi‑year operational data covering:
 
-### Turnaround Time View
-<img width="498" height="335" alt="GitHub DM Turnaround Time" src="https://github.com/user-attachments/assets/0d0d695a-4bb4-4059-a3e0-251a82c9f6f4" />
+- **Submissions received**
+- **Reviews picked up**
+- **Reviews completed**
+- **Turnaround time**
+- **Regional and process‑level breakdowns**
 
-### Data Model
-<img width="1889" height="802" alt="GitHub Data Model View" src="https://github.com/user-attachments/assets/5ae357bf-d4ee-4553-a1ec-c61b84278779" />
-
----
-
-## 🎯 Purpose of the Dashboard
-
-The dashboard was created to:
-
-- Improve visibility of operational performance  
-- Standardise KPI reporting  
-- Support senior management reviews  
-- Highlight areas requiring process improvement  
-- Provide a single source of truth for operational discussions  
+Data is sourced from internal operational systems and processed in Excel and Power Query prior to modelling in Power BI.  
+Due to confidentiality, the underlying dataset cannot be included in this repository; however, the `.pbix` file contains the full data model structure, transformations, and measures.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
 
 ---
 
-## 🛠️ Tools Used
+## 🔧 **Methodology**
 
-- Power BI  
-- Power Query  
-- Data modelling (relationships, measures, calculated columns)  
-- DAX (where applicable)
-- Excel (pre‑processing)
+The development process included:
+
+### **1. Data Preparation (Power Query)**
+- Standardised date formats, category labels, and record structures  
+- Removed duplicates and validated year‑on‑year consistency  
+- Merged multiple source files into a clean, unified table  
+[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+
+### **2. Data Modelling**
+- Designed a structured model linking activities, dates, and categories  
+- Created relationships to enable cross‑filtering across processes and regions  
+- Defined KPI measures using DAX, including year‑on‑year % changes, rolling metrics, and turnaround time calculations[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+
+### **3. Dashboard Design**
+- Built multi‑year trend visuals for submissions, pick‑ups, completions  
+- Created turnaround time monitoring pages  
+- Designed an overview page summarising key performance actions  
+- Ensured dashboards were aligned with the reporting needs of senior management  
+[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
 
 ---
 
-## 📌 Notes
+## 🖼️ **Screenshots**
 
-The data used for this dashboard cannot be shared publicly.  
-The `.pbix` file contains the model structure, visuals and layout.
+### **📊 Dashboard Overview**
+Provides a high‑level view of operational workload and performance across the full review lifecycle.  
+Shows multi‑year submission trends, completions, and KPI summary visuals.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+
+*(Insert image markdown linking to `GitHub Dashboard OverView.png`)*
 
 ---
+
+### **⏱ Turnaround Time View**
+A focused view on weekly and regional turnaround trends, used to identify bottlenecks and efficiency improvements.  
+[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+
+*(Insert image markdown linking to `GitHub DM Turnaround Time.png`)*
+
+---
+
+### **🧩 Data Model**
+Displays the underlying relationship structure between tables, enabling flexible cross‑filtering across regions, activities and time periods.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+
+*(Insert `GitHub Data Model View.png`)*
+
+---
+
+### **⚙️ Power Query Transformations**
+Shows the transformation logic, data cleansing steps, and applied preprocessing.[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)  
+
+*(Insert `GitHub Power Query Transformations.png`)*
+
+---
+
+## 📈 **Key Insights & Interpretation**
+
+Analysis from the dashboard highlights the following patterns:
+
+- **Workload volumes show consistent year‑on‑year growth**, with submissions and completions steadily increasing across regions.  
+- **Turnaround times remain stable**, with several regions showing improvements relative to previous years.  
+- **Pick‑up rates have strengthened**, indicating improved allocation consistency and operational efficiency.  
+- **Cross‑regional comparisons reveal variation in throughput**, helping identify where additional resources or process improvements may be needed.  
+- **Data quality indicators surfaced through Power Query** highlight where upstream corrections or standardisation efforts may provide further efficiency gains.  
+[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+
+These insights provide operational managers with timely, data‑driven information to support planning, resource deployment, and performance monitoring.
+
+---
+
+## ▶️ **How to Use the Dashboard**
+
+### **To open the dashboard locally:**
+
+1. Download the `.pbix` file from the `/dashboard` folder  
+2. Open it in **Power BI Desktop**  
+3. Review the data model, transformations, and DAX measures  
+4. Interact with:
+   - slicers  
+   - cross‑filters  
+   - year‑on‑year trend visuals  
+5. Use the Overview tab for senior‑level summaries, and drill into regional or metric‑specific pages for detailed analysis[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+
+---
+
+## 🛠 **Tools Used**
+
+- **Power BI Desktop**  
+- **Power Query**  
+- **DAX (measures, calculated columns)**  
+- **Excel (pre‑processing)**  
+- **Data modelling (relationships, schema design)**[1](https://github.com/leightonwilliams46-prog/faulty-medical-devices-analysis/blob/main/README.md)
+
+---
+
+## ✅ **Conclusion**
+
+This dashboard provides a reliable and interactive reporting environment for reviewing multi‑year operational performance. By combining workload volumes, turnaround times, and regional patterns into a single reporting asset, it enables informed decision‑making, improved KPI tracking, and clearer identification of operational bottlenecks.
+
+The structured data model, clean transformations, and DAX‑driven calculations ensure that stakeholders have access to accurate, consistent, and high‑value performance insights to support both tactical and strategic planning.  
